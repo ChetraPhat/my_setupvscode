@@ -1,114 +1,129 @@
 {
  
-    "workbench.colorTheme": "Aura Dark (Soft Text)",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.sideBar.location": "left",
-    "workbench.layoutControl.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "workbench.colorCustomizations": {
-        "editorSuggestWidget.selectedBackground": "#231739",
-        "sideBar.background": "#140E1A",
-        "list.activeSelectionBackground": "#231739",
-        "list.inactiveSelectionBackground": "#231739",
-        "list.focusBackground": "#231739",
-        "list.hoverBackground": "#231739"
-    },
-    "files.autoSave": "afterDelay",
-    "editor.minimap.enabled": false,
-    "editor.guides.indentation": false,
-    "editor.renderWhitespace": "none",
-    "editor.renderLineHighlight": "none",
-    "editor.matchBrackets": "never",
-    "editor.hover.enabled": false,
-    "editor.showFoldingControls": "never",
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.overviewRulerBorder": false,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "Dank Mono",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 2.5,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "explorer.compactFolders": false,
-    "git.decorations.enabled": false,
-    "scm.diffDecorations": "none",
-    "files.insertFinalNewline": true,
-    "extensions.ignoreRecommendations": true,
-    "terminal.integrated.fontFamily": "monospace",
-    "terminal.integrated.tabs.enabled": false,
-    "terminal.integrated.lineHeight": 1.8,
-    "terminal.integrated.fontSize": 14,
-    "window.titleBarStyle": "native",
-    "apc.electron": {
-      "titleBarStyle": "hidden"
-    },
-    "apc.font.family": "Dank Mono",
-    "apc.menubar.compact": true,
-    "apc.activityBar": {
-      "position": "bottom",
-      "size": 30,
-      "itemSize": 30,
-      "itemMargin": 10
-    },
-    "apc.header": {
-      "height": 30
-    },
-    "apc.sidebar.titlebar": {
-      "height": 30,
-      "fontSize": 12
-    },
-    "apc.statusBar": {
-      "position": "editor-bottom",
-      "height": 20,
-      "fontSize": 10
-    },
-    "apc.listRow": {
-      "lists": [
-        "explorer-folders-view",
-        "quick-input-list",
-        "results"
-      ],
-      "height": 30,
-      "fontSize": 12
-    },
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
-    ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-    "animations.Install-Method": "Apc Customize UI++",
-  "apc.imports": [
-      "file:///c:/Users/Chetra Phat/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.colorCustomizations": {
+      "activityBar.background": "#140E1A",
+      "sideBar.background":  "#140E1A",
+      "list.activeSelectionBackground":   "#231739",
+      "list.inactiveSelectionBackground": "#231739",
+      "list.activeSelectionForeground": "#D4D4D4",
+      "list.hoverBackground": "#231739",
+
+  },
+
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "never",
+  "editor.hover.enabled": false,
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "files.insertFinalNewline": true,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.lineHeight": 1.8,
+  "terminal.integrated.fontSize": 14,
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hidden",
+  },
+  "apc.font.family": "Dank Mono",
+  "apc.menubar.compact": true,
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 30,
+    "itemSize": 30,
+    "itemMargin": 10
+  },
+  "apc.header": {
+    "height": 30
+  },
+  "apc.sidebar.titlebar": {
+    "height": 30,
+    "fontSize": 12
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 20,
+    "fontSize": 10
+  },
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+      "quick-input-list",
+      "results"
     ],
-    ".sidebar": "border: none !important",
-    ".panel .composite.title": "visibility: hidden !important",
-    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
-    ".sidebar .title-label h2": "line-height: 2.8 !important",
-    ".monaco-editor .scroll-decoration": "display: none !important",
-    ".monaco-scrollable-element > .shadow.top": "display: none !important",
-    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important",
-    "terminal.integrated.env.windows": {},
-    "workbench.reduceMotion": "on",
-    "json.schemas": [
-      
-
-
-    ],
-  }
-
-    
-
-   
-      
-      
+    "height": 30,
+    "fontSize": 12
+  },
+  ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+  ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+"apc.imports": [
+  "file:///c:/Users/Chetra Phat/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+],
+  ".sidebar": "border: none !important",
+  ".panel .composite.title": "visibility: hidden !important",
+  ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+  ".sidebar .title-label h2": "line-height: 2.8 !important",
+  ".monaco-editor .scroll-decoration": "display: none !important",
+  ".monaco-scrollable-element > .shadow.top": "display: none !important",
+  ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important",
+  "terminal.integrated.env.windows": {},
+  "workbench.reduceMotion": "on",
+  "json.schemas": [
   
+
+
+  
+
+
+
+
     
 
-      
-       
+
+  ],
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "animations.Install-Method": "Apc Customize UI++",
+  "editor.fastScrollSensitivity": 20,
+  "editor.smoothScrolling": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
+
+  
+
+ 
     
+    
+
+  
+
+    
+     
+  
